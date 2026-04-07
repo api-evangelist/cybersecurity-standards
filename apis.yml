@@ -1,15 +1,12 @@
 name: Cybersecurity Standards
-description: Frameworks and guidelines that establish best practices for protecting
-  information systems, networks, and data from cyber threats, including standards
-  like NIST, ISO 27001, and CIS Controls. It is widely adopted across industries to
-  safeguard digital assets and reduce security risks.
+description: Frameworks and guidelines that establish best practices for protecting information systems, networks, and data from cyber threats, including standards like NIST, ISO 27001, and CIS Controls. It is widely adopted across industries to safeguard digital assets and reduce security risks.
 url: https://www.nist.gov/cyberframework
 tags:
-- Cybersecurity
-- Compliance
-- Security
-- Risk Management
-- Information Security
+  - Compliance
+  - Cybersecurity
+  - Information Security
+  - Risk Management
+  - Security
 created: '2025-01-01'
 modified: '2026-03-16'
 apis: []
