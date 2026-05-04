@@ -1,0 +1,229 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+alignedWith:
+  framework: FinOps Foundation Framework
+  frameworkUrl: https://www.finops.org/framework/
+  dataSpec: FOCUS
+  dataSpecVersion: '1.3'
+  dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
+provider: Cybersecurity Standards
+providerId: cybersecurity-standards
+publisherName: Cybersecurity Standards
+serviceCategory: API
+created: '2026-05-04'
+modified: '2026-05-04'
+tags:
+  - CIS Controls
+  - Compliance
+  - CSF
+  - Cybersecurity
+  - FedRAMP
+  - Frameworks
+  - HIPAA
+  - HITRUST
+  - Information Security
+  - ISO 27001
+  - ISO 27002
+  - NIST
+  - NIST 800-171
+  - NIST 800-218
+  - NIST 800-53
+  - OSCAL
+  - OWASP
+  - PCI DSS
+  - Risk Management
+  - SOC 2
+  - SSDF
+  - Standards
+  - FinOps
+  - Cost Management
+  - FOCUS
+description: FinOps framework definition for the Cybersecurity Standards API surface. Provides a FOCUS-aligned
+  mapping for cost allocation, usage measurement, and unit-economics reporting across the provider's APIs.
+principles:
+  - name: Visibility
+    description: Make API consumption costs visible to engineering, product, and finance teams in near
+      real-time.
+  - name: Allocation
+    description: Tag every chargeable API call with the consuming team, environment, application, and
+      feature so cost can be allocated.
+  - name: Optimization
+    description: Continuously evaluate request patterns, caching, batching, and tier selection to reduce
+      cost per useful unit of work.
+  - name: Accountability
+    description: Establish budget owners and chargeback or showback flows for each consuming team.
+domains:
+  - name: Understand Usage and Cost
+    capabilities:
+      - Data Ingestion
+      - Allocation
+      - Reporting and Analytics
+      - Anomaly Management
+  - name: Quantify Business Value
+    capabilities:
+      - Planning and Estimating
+      - Forecasting
+      - Budgeting
+      - Benchmarking
+      - Unit Economics
+  - name: Optimize Usage and Cost
+    capabilities:
+      - Architecting for Cloud
+      - Rate Optimization
+      - Workload Optimization
+      - Cloud Sustainability
+      - Licensing and SaaS
+  - name: Manage the FinOps Practice
+    capabilities:
+      - FinOps Practice Operations
+      - FinOps Education and Enablement
+      - Invoicing and Chargeback
+      - Onboarding Workloads
+      - Intersecting Disciplines
+billingModel:
+  pricingCategory: Usage-Based
+  billingFrequency: Monthly
+  billingCurrency: USD
+  chargeCategories:
+    - Usage
+    - Purchase
+    - Tax
+    - Credit
+    - Adjustment
+  chargeFrequency: Recurring
+focusColumns:
+  ServiceName: Cybersecurity Standards
+  ServiceCategory: Developer Tools / API
+  ProviderName: Cybersecurity Standards
+  PublisherName: Cybersecurity Standards
+  InvoiceIssuerName: Cybersecurity Standards
+  PricingCategory: Usage-Based
+  PricingUnit: request
+  BillingCurrency: USD
+  ChargeCategory: Usage
+meters:
+  - name: api_requests
+    description: Count of billable API requests
+    unit: request
+    aggregation: sum
+    dimensions:
+      - api
+      - endpoint
+      - tier
+      - region
+      - consumer
+  - name: data_egress
+    description: Bytes returned over the network in API responses
+    unit: GB
+    aggregation: sum
+    dimensions:
+      - api
+      - region
+      - consumer
+  - name: compute_seconds
+    description: Server-side compute consumed by the request, where applicable
+    unit: second
+    aggregation: sum
+    dimensions:
+      - api
+      - endpoint
+      - tier
+apis:
+  - name: NIST Cybersecurity Framework (CSF) 2.0
+    baseURL: ''
+    tags:
+      - CSF
+      - Framework
+      - NIST
+      - Risk Management
+    serviceName: NIST Cybersecurity Framework (CSF) 2.0
+    serviceCategory: API
+  - name: NIST SP 800-53 Security and Privacy Controls
+    baseURL: ''
+    tags:
+      - Controls
+      - FedRAMP
+      - NIST
+      - OSCAL
+      - RMF
+    serviceName: NIST SP 800-53 Security and Privacy Controls
+    serviceCategory: API
+  - name: NIST SP 800-171 Protecting CUI
+    baseURL: ''
+    tags:
+      - CMMC
+      - CUI
+      - DIB
+      - NIST
+    serviceName: NIST SP 800-171 Protecting CUI
+    serviceCategory: API
+  - name: NIST SP 800-218 Secure Software Development Framework (SSDF)
+    baseURL: ''
+    tags:
+      - NIST
+      - Secure Development
+      - SSDF
+    serviceName: NIST SP 800-218 Secure Software Development Framework (SSDF)
+    serviceCategory: API
+  - name: ISO/IEC 27001 Information Security Management
+    baseURL: ''
+    tags:
+      - Certification
+      - ISMS
+      - ISO 27001
+      - ISO 27002
+    serviceName: ISO/IEC 27001 Information Security Management
+    serviceCategory: API
+  - name: CIS Critical Security Controls and Benchmarks
+    baseURL: ''
+    tags:
+      - Benchmarks
+      - CIS
+      - Configuration
+      - Controls
+    serviceName: CIS Critical Security Controls and Benchmarks
+    serviceCategory: API
+  - name: OWASP Top 10 and ASVS
+    baseURL: ''
+    tags:
+      - API Security
+      - ASVS
+      - AppSec
+      - OWASP
+    serviceName: OWASP Top 10 and ASVS
+    serviceCategory: API
+  - name: PCI DSS Payment Card Industry Data Security Standard
+    baseURL: ''
+    tags:
+      - Cardholder Data
+      - Payments
+      - PCI DSS
+    serviceName: PCI DSS Payment Card Industry Data Security Standard
+    serviceCategory: API
+  - name: SOC 2 Trust Services Criteria
+    baseURL: ''
+    tags:
+      - AICPA
+      - Audit
+      - SOC 2
+      - Trust Services
+    serviceName: SOC 2 Trust Services Criteria
+    serviceCategory: API
+  - name: FedRAMP Federal Cloud Authorization
+    baseURL: ''
+    tags:
+      - Cloud
+      - FedRAMP
+      - Federal Government
+    serviceName: FedRAMP Federal Cloud Authorization
+    serviceCategory: API
+unitEconomics:
+  - name: Cost per 1K Requests
+    metric: billed_cost / (api_requests / 1000)
+    target: TBD
+  - name: Cost per Active Consumer
+    metric: billed_cost / active_consumers
+    target: TBD
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
