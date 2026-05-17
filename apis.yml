@@ -1,6 +1,6 @@
 aid: cybersecurity-standards
 name: Cybersecurity Standards
-x-type: topic
+kind: topic
 description: >-
   Cybersecurity Standards captures the public, machine-readable, and
   reference frameworks that establish best practices for protecting
