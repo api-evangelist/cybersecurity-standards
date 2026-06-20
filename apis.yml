@@ -21,7 +21,7 @@ description: >-
   cybersecurity programs.
 url: >-
   https://raw.githubusercontent.com/api-evangelist/cybersecurity-standards/refs/heads/main/apis.yml
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 type: Index
 access: 3rd-Party
 position: Reference
@@ -60,7 +60,7 @@ apis:
       functions (Govern, Identify, Protect, Detect, Respond, Recover)
       with categories and subcategories. NIST publishes informative
       references and quick-start guides mapping CSF to other standards.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.nist.gov/cyberframework
     tags:
       - CSF
@@ -84,7 +84,7 @@ apis:
       Used as the basis of FedRAMP authorizations and Risk Management
       Framework implementations. Available in machine-readable OSCAL
       format.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
     tags:
       - Controls
@@ -106,7 +106,7 @@ apis:
       Unclassified Information (CUI) in non-federal systems. Forms
       the basis of CMMC (Cybersecurity Maturity Model Certification)
       for the U.S. defense industrial base.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csrc.nist.gov/publications/detail/sp/800-171/rev-3/final
     tags:
       - CMMC
@@ -125,7 +125,7 @@ apis:
       (SSDF), a set of high-level secure-development practices
       referenced by U.S. Executive Order 14028 and procurement
       attestations.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csrc.nist.gov/publications/detail/sp/800-218/final
     tags:
       - NIST
@@ -141,7 +141,7 @@ apis:
       security management systems (ISMS). The 2022 revision aligns
       Annex A controls with the ISO/IEC 27002:2022 catalog.
       Certification is performed by accredited bodies.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.iso.org/standard/27001
     tags:
       - Certification
@@ -160,7 +160,7 @@ apis:
       Controls (currently v8.1) and a library of CIS Benchmarks
       providing prescriptive secure configuration guidance for OSes,
       cloud platforms, and applications.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cisecurity.org/controls
     tags:
       - Benchmarks
@@ -179,7 +179,7 @@ apis:
       Security Top 10, and the Application Security Verification
       Standard (ASVS) used as a baseline for application security
       reviews.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://owasp.org/Top10/
     tags:
       - API Security
@@ -199,7 +199,7 @@ apis:
       PCI DSS, maintained by the PCI Security Standards Council,
       defines requirements for organizations that store, process, or
       transmit cardholder data. Version 4.0.1 is the current edition.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.pcisecuritystandards.org/
     tags:
       - Cardholder Data
@@ -215,7 +215,7 @@ apis:
       by AICPA-licensed auditors against the Trust Services Criteria
       (Security, Availability, Processing Integrity, Confidentiality,
       Privacy). Widely adopted by SaaS vendors.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2
     tags:
       - AICPA
@@ -231,7 +231,7 @@ apis:
       The Federal Risk and Authorization Management Program provides
       a standardized approach for U.S. federal agencies to authorize
       cloud services, anchored on NIST SP 800-53 baselines.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.fedramp.gov/
     tags:
       - Cloud
