@@ -243,6 +243,10 @@ apis:
       - type: Marketplace
         url: https://marketplace.fedramp.gov/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/cybersecurity-standards-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/cybersecurity-standards-domain-security.yml
   - type: NIST
     url: https://www.nist.gov/cyberframework
   - type: NISTCSRC
