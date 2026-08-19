@@ -39,7 +39,7 @@ access: 3rd-Party
 position: Reference
 created: '2025-01-01'
 modified: '2026-04-28'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 tags:
   - CIS Controls
   - Compliance
