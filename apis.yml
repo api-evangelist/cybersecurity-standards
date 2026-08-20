@@ -248,6 +248,10 @@ apis:
     tags:
       - Cloud
       - FedRAMP
+      - Federal-Government
+    tags_raw:
+      - Cloud
+      - FedRAMP
       - Federal Government
     properties:
       - type: Documentation
