@@ -57,6 +57,29 @@ tags:
   - CSF
   - Cybersecurity
   - FedRAMP
+  - Framework
+  - HIPAA
+  - HITRUST
+  - Information Security
+  - ISO 27001
+  - ISO 27002
+  - NIST
+  - NIST 800-171
+  - NIST 800-218
+  - NIST 800-53
+  - OSCAL
+  - OWASP
+  - PCI DSS
+  - Risk Management
+  - SOC 2
+  - SSDF
+  - Standards
+tags_raw:
+  - CIS Controls
+  - Compliance
+  - CSF
+  - Cybersecurity
+  - FedRAMP
   - Frameworks
   - HIPAA
   - HITRUST
@@ -110,6 +133,12 @@ apis:
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
     tags:
+      - Control
+      - FedRAMP
+      - NIST
+      - OSCAL
+      - RMF
+    tags_raw:
       - Controls
       - FedRAMP
       - NIST
@@ -186,6 +215,11 @@ apis:
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cisecurity.org/controls
     tags:
+      - Benchmarks
+      - CIS
+      - Configuration
+      - Control
+    tags_raw:
       - Benchmarks
       - CIS
       - Configuration
