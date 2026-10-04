@@ -293,11 +293,12 @@ apis:
     tags:
       - Cloud
       - FedRAMP
-      - Federal-Government
+      - Federal Government
     tags_raw:
       - Cloud
       - FedRAMP
       - Federal Government
+      - Federal-Government
     properties:
       - type: Documentation
         url: https://www.fedramp.gov/
